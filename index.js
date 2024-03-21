@@ -1,21 +1,5 @@
-// Default Export
+let path = require("path")
 
-let greeting = (user) => {
-    let userMsg = "Hi " + user + "Welcome Node Js"
-    return userMsg 
-}
+let floder = path.join("hari","kani","merriage.txt")
 
-
-
-
-
-// Named Export
-let add = (a,b) => {
-  return a + b
-}
-
-let sub = (a,b) => {
-    return a - b
-  }
-
-export default add
+console.log(floder)
