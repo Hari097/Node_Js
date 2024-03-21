@@ -1,4 +1,4 @@
 const add = (a,b) => a+b 
 
-
-export default add
+export const sub = (a,b)=> a-b
+// export default add
