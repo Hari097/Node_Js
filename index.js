@@ -4,7 +4,15 @@
 
 // console.log(floder)
 
-const addDays = require("date-fns/addDays");
-const result = addDays(new Date(2021, 0, 11), 10);
+// const addDays = require("date-fns/addDays");
+// const result = addDays(new Date(2021, 0, 11), 10);
 
-console.log(result);
+// console.log(result);
+
+const express = require("express");
+const app = express();
+
+app.get("/", (request, response) => {
+  response.send("Hello World!");
+});
+app.listen(3000);
